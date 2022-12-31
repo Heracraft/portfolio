@@ -16,7 +16,7 @@
 </div>
 <section class="flex justify-between p-5 fixed bottom-0 left-0 right-0 text-y z-10 shadow-md
                 md:mx-24 sm:mx-5 dark:text-white bg-white border-gray-200rounded opacity-50 dark:bg-zinc-800 dark:opacity-100">
-    <div class="my-3dark:text-white flex">nehemiahelibariki@gmail.com</div>
+    <div class="my-3dark:text-white flex max-w-[50%] overflow-clip">nehemiahelibariki@gmail.com</div>
     <div class="flex">
         <a href="https://github.com/Heracraft" class="mr-2">Github</a>
         <a href="" class="mr-2">Dribble</a>
