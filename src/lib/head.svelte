@@ -18,7 +18,7 @@
                 md:mx-24 sm:mx-5 dark:text-white bg-white border-gray-200rounded opacity-50 dark:bg-zinc-800 dark:opacity-100">
     <div class="my-3dark:text-white flex">nehemiahelibariki@gmail.com</div>
     <div class="flex">
-        <a href="" class="mr-2">Github</a>
+        <a href="https://github.com/Heracraft" class="mr-2">Github</a>
         <a href="" class="mr-2">Dribble</a>
         <!-- <a href="" class="mr-2">Twitter</a> -->
     </div>
