@@ -10,7 +10,7 @@
     </section>
     <section class="md:flex-[4] flex items-center justify-center md:justify-end "> 
         <div class="inline-flex overflow-hidden relative justify-center items-center w-36 h-36 md:w-52 md:h-52 bg-gray-100 rounded-full dark:bg-gray-600">
-            <span class="font-medium text-5xl text-gray-600 dark:text-gray-300">JL</span>
+            <span class="font-medium text-5xl text-gray-600 dark:text-gray-300">NK</span>
         </div>
     </section>
 </div>
