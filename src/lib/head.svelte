@@ -1,4 +1,4 @@
-<div class="w-full flex-col flex md:flex-row h-full mt-10">
+<div class="w-full flex-col flex md:flex-row h-full mt-10 z-10">
 
     <section class="md:flex-[6] text-center md:text-start text-zinc-700 font-visuelt">
         <h2 class="text-3xl my-3 md:text-4xl font-bold dark:text-white">Hi, I'm</h2>
@@ -14,7 +14,7 @@
         </div>
     </section>
 </div>
-<section class="flex justify-between p-5 fixed bottom-0 left-0 right-0 text-y z-10 shadow-md
+<section class="flex justify-between p-5 fixed bottom-0 left-0 right-0 text-y shadow-md
                 md:mx-24 sm:mx-5 dark:text-white bg-white border-gray-200rounded opacity-50 dark:bg-zinc-800 dark:opacity-100">
     <div class="my-3dark:text-white flex max-w-[50%] overflow-clip">nehemiahelibariki@gmail.com</div>
     <div class="flex">
