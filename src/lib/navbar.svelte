@@ -31,7 +31,7 @@
           <li>
             <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-green-500 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
           </li>
-          <li class="w-6 h-6" on:click={()=>{
+          <li class="w-6 h-6 block py-2 pl-3 pr-4 md:p-0" on:click={()=>{
             console.log($colorTheme=="light" ? 1:0);
             
             if($colorTheme=="dark"){
