@@ -2,6 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    .darkGlass{
+        background: rgba( 39, 39, 42, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+    .skill{
+        @apply flex flex-col items-center mx-5 px-2 my-2 w-24;
+    }
+   .skill > svg{
+    @apply w-20 h-20 rounded-2xl bg-primary fill-white p-2;
+   }
+   .skill > p{
+    @apply my-2 text-center max-w-[10ch] leading-tight;
+   }
+   .card{
+    @apply w-56 rounded-xl m-2 flex flex-col bg-zinc-900; 
+   }
+   .card > .media{
+    @apply bg-zinc-700 w-full h-28 rounded-t-xl;
+   }
+   .card > .content{
+    @apply p-3;
+    
+   }
+   .card .actions{
+    @apply flex items-center justify-between;
+   }
+   .card button{
+    @apply text-xs text-primary rounded uppercase font-bold hover:bg-primary hover:bg-opacity-20 hover:p-2;
+   }
+   .card .buttons{
+    @apply flex-[4]
+   }
+   .card .icons{
+    @apply flex fill-white justify-evenly flex-[2];
+   }
+}
+
+
 html,body , #svelte{
     height: 100%;
 }
@@ -10,10 +53,16 @@ html,body , #svelte{
 }*/
 
 body.light>.glass{
-    background: rgba( 212, 195, 195, 0.55 )!important;
+  background: rgba( 212, 195, 195, 0.55 )!important;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 10.5px );
   -webkit-backdrop-filter: blur( 10.5px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  }
+}
+.skill>svg{
+    transition:3s;
+}
+.skill:hover>svg{
+   border-radius: 1000rem;
+}

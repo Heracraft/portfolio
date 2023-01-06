@@ -65,8 +65,10 @@
         --columns:0;
         grid-template-columns: repeat(var(--columns),1fr);
         grid-template-rows: repeat(var(--rows),1fr);
-        background:linear-gradient(to right, hsl(123deg 64% 68%), #7EE8FA, #FFCFDF,hsl(123deg 64% 68%));
-        animation: background-pan 6s linear infinite;
+        /* background:linear-gradient(to right, hsl(123deg 64% 68%), #7EE8FA, #FFCFDF,hsl(123deg 64% 68%)); */
+        /* background:linear-gradient(to right, #059669, rgb(56 189 248 ),#7ee8f7,rgb(5 150 105)); */
+        background:linear-gradient(to right, #059669, #7EE8FA, #FFCFDF,#059669);
+        animation: background-pan 10s linear infinite;
         background-size: 200%;
     }
    .tile{
