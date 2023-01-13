@@ -12,10 +12,10 @@
         border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
     .skill{
-        @apply flex flex-col items-center mx-5 px-2 my-2 w-24;
+        @apply flex flex-col items-center mx-5 px-2 my-2 w-14 md:w-24;
     }
    .skill > svg{
-    @apply w-20 h-20 rounded-2xl bg-primary fill-white p-2;
+    @apply w-12 md:w-20 h-12 md:h-20 rounded-2xl bg-primary fill-white p-2;
    }
    .skill > p{
     @apply my-2 text-center max-w-[10ch] leading-tight;

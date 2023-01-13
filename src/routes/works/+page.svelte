@@ -7,7 +7,7 @@
         <h3 class="w-full text-center my-2 uppercase">my works</h3>
         <p class="w-full text-center">Projects i am working or worked on and ones that i have collaborated on</p>
         <div class="flex flex-wrap justify-evenly">
-            {#each Array(7) as _}
+            {#each Array(6) as _}
                 <Card cover={"https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"}></Card>
                 
             {/each}

@@ -1,13 +1,15 @@
 <script>
     export let cover
 </script>
-<div class="w-56 md:w-1/4 h-96 rounded-xl mx-2 my-5 flex flex-col dark:bg-zinc-900 shadow-lg outline outline-1 dark:outline-none">
+<div class=" w-56 md:w-1/4 h-96 rounded-xl mx-2 my-5 flex flex-col dark:bg-zinc-900 shadow-lg outline outline-1 dark:outline-none">
                 <div style={`background-image: url(${cover});`} class=" w-full min-h-max flex-[3] rounded-t-xl bg-cover">
                     
                 </div>
                 <div class="p-3 flex-[2]">
                     <div class="text-xl">Project title</div>
-                    <div class="text-onsurface dark:text-white">
+                    <div class="text-onsurface dark:text-white textClip" on:click={function(){
+                        this.classList.toggle("textClip")                        
+                    }}>
                         <small>Lorem ipsum dolor sit amet consectetur adipisicing elit sit amet consectetur adipisicing elit</small>
                     </div>
                     <div class="flex items-center justify-between">
