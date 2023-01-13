@@ -21,7 +21,7 @@
     @apply my-2 text-center max-w-[10ch] leading-tight;
    }
    .card{
-    @apply w-56 rounded-xl m-2 flex flex-col bg-zinc-900; 
+    @apply w-56 md:w-62 rounded-xl m-2 flex flex-col bg-zinc-900; 
    }
    .card > .media{
     @apply bg-zinc-700 w-full h-28 rounded-t-xl;
