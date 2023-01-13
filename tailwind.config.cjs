@@ -12,6 +12,7 @@ module.exports = {
     extend:{
       colors:{
         primary:"#059669",
+        onsurface:"rgb(63, 63, 70)"
    
       }
     }
