@@ -61,8 +61,8 @@ body.light>.glass{
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .skill>svg{
-    transition:3s;
+    transition:10ms;
 }
 .skill:hover>svg{
-   border-radius: 1000rem;
+   @apply scale-110;
 }
