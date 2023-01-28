@@ -6,6 +6,7 @@
     import Navbar from "$lib/navbar.svelte";
     import Footer from "$lib/footer.svelte";
     import TilesGrid from "$lib/tilesGrid.svelte";
+    import Banner from "$lib/banner.svelte";
 
     import "../css/tailwind.css"
     import "../css/global.css"
@@ -17,6 +18,7 @@
 
 <TilesGrid/>
 <div class="m-0 lg:mx-24 sm:mx-5 z-20 relative h-full">
+    <!-- <Banner/> -->
     <Navbar/>
     <main >
         <slot/>
