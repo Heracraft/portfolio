@@ -13,7 +13,9 @@ module.exports = {
       colors:{
         primary:"#059669",
         onsurface:"rgb(63, 63, 70)"
-   
+      },
+      screens:{
+        'xs':'600px'
       }
     }
   },

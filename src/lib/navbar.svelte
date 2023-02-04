@@ -5,7 +5,7 @@
 
     let navLinks
 </script>
-<nav class="bg-white shadow-sm border-gray-200 px-2 sm:px-4 py-2.5 rounded  dark:bg-zinc-800 z-10 dark:opacity-100 relative ">
+<nav class="bg-white shadow-sm border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-zinc-800 z-10 dark:opacity-100 relative ">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
       <a href="https://flowbite.com/" class="flex items-center">
           <span class="self-center text-xl  whitespace-nowrap dark:text-white font-shadows">Nehemiahkaaya</span>
